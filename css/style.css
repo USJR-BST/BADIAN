@@ -26,6 +26,11 @@
 nav{
     padding: 2em 2em;
     background: #fff;
+    background: transparent;
+    box-shadow: none;
+}
+#sidenav-overlay {
+    z-index: 996;
 }
 .nav-wrapper a {
     color:#292929;
@@ -41,5 +46,8 @@ nav{
 @media only screen and (max-width: 979px){
     nav{
         padding: 0 0 !important;
+    }
+    .brand-logo{
+        top: 10px;
     }
 }
