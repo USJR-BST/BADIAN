@@ -1,33 +1,37 @@
-.atf {
-    /* The image used */
-    background-image: linear-gradient(0deg,rgba(34,34,34,0.2),rgba(34,34,34,0.2)),url("../images/atf.jpg");
+/*.atf {*/
+    /*!* The image used *!*/
+    /*background-image: linear-gradient(0deg,rgba(34,34,34,0.05),rgba(34,34,34,0.05)),url("../images/atf.jpg");*/
 
-    /* Set a specific height */
-    height: 100vh;
+    /*!* Set a specific height *!*/
+    /*height: 100vh;*/
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*!* Create the parallax scrolling effect *!*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
+.parallax-container {
+    height: 700px;
 }
-
-.overlay{
-    background: #FD8698;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 0;
-    transition: opacity .5s;
+.brandstamp-container{
+    width:100%;
+    position:absolute;
+    z-index:994;
+    text-align: center;
+    top: 5px;
+}
+.brandstamp{
+    width: 50%;
 }
 nav{
     padding: 2em 2em;
     background: #fff;
     background: transparent;
     box-shadow: none;
+}
+.navbar-fixed{
+    height: 0px !important;
 }
 #sidenav-overlay {
     z-index: 996;
@@ -49,5 +53,14 @@ nav{
     }
     .brand-logo{
         top: 10px;
+    }
+    .parallax-container {
+        height: 100vh;
+    }
+    .brandstamp{
+        width: 85%;
+    }
+    .brandstamp-container{
+        top:150px;
     }
 }
