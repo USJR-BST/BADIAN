@@ -44,3 +44,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+.idea/BADIAN.iml
+.idea/modules.xml
+bower_components/

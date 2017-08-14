@@ -1,0 +1,14 @@
+{
+  "name": "BADIAN",
+  "homepage": "https://github.com/USJR-BST/BADIAN",
+  "authors": [
+    "USJR-BST <usjr.bst@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
