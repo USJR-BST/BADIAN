@@ -1,20 +1,22 @@
 <html>
 <head>
     <title>Badian</title>
-    <!-- Compiled and minified CSS -->
+    <!-- Materialize CSS Compiled and Minified CSS -->
     <link rel="stylesheet" href="downloaded_components/materialize/css/materialize.min.css">
-    <!-- materialize css icons -->
+    <!-- Materialize CSS Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
     <!--Custom CSS Styles-->
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body>
+<body class="main-container">
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img width="100" src="images/badian_logo.png" /> </a>
+                <a href="#" class="brand-logo"><img class="" width="100" src="images/badian_logo.png" /> </a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse right white-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><ahref="facebook.com">Home</a></li>
@@ -31,31 +33,37 @@
             </div>
         </nav>
     </div>
-    <div class="brandstamp-container">
+    <div class="brandstamp-container animated fadeIn">
         <img src="images/badian_brandstamp.png"  class="brandstamp"/>
     </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/atf.jpg"></div>
+    <div class="parallax-container" id="ATF">
+        <div class="parallax"><img src="images/atf.jpg"/></div>
     </div>
     <p></p>
-    <div class="container" style="height: 2000px;">
+    <div class="container">
+        <div class="hide-on-med-and-down" style="height: 100px;"></div>
         <div class="row">
             <div class="col m12">
                 <div class="card">
                     <div class="card-content">
                         <div style="width: 100%" class="center-align">
+                            <img src="images/history.png" width="125" />
                             <h4>HISTORY OF BADIAN</h4>
                         </div>
                         <br>
                         <p class="center-align">This southern town got its name from a plant called, "badyang", which was once abundant in the area. However, the Spaniards found it difficult to pronounce the name so eventually the "g" was dropped and the "y" was changed to "i" and the town came to be known as Badian, a generally mountainous and hilly area where locals and tourists go around in jeepneys and tricycles.</p>
                         <br>
-                        <p class="center-align">Badian was separated as a parish from Barili in 1825 under the advocacy of Santiago de Apostle. Its church is unique compared to the others in the island province with its squat and unusual porticoes facade with four quadrilateral columns supporting a triangular pediment. Simple floral bas relief»s decorate these and four jar shaped finials are found at each corner.</p>
+                        <p class="center-align">Badian was separated as a parish from Barili in 1825 under the advocacy of Santiago de Apostle. Its church is unique compared to the others in the island province with its squat and unusual porticoes facade with four quadrilateral columns supporting a triangular pediment. Simple floral bas relief's decorate these and four jar shaped finials are found at each corner.</p>
                         <br>
                         <p class="center-align"s>The original belfry, now built at its side, used to sit atop the pediment but was taken down in 1990 upon the advice of NHI to ease pressure on the two free columns. The church still has its original and beautiful wooden retablo.</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="hide-on-med-and-down" style="height: 100px;"></div>
+    </div>
+    <div class="parallax-container body">
+        <div class="parallax"><img src="images/atf.jpg"/></div>
     </div>
 
     <!--Import jQuery before materialize.js-->
