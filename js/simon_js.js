@@ -9,11 +9,11 @@ $(document).ready(function () {
             var div = $(this);
             if(div.scrollTop() === 0)
             {
-                $(".brand-logo img").removeClass(" animated slideOutUp");
-                $(".brand-logo img").addClass(" animated slideInDown");
+                $(".brand-logo img").removeClass(" animated zoomOut");
+                $(".brand-logo img").addClass(" animated zoomIn");
             }else{
-                $(".brand-logo img").removeClass(" animated slideInDown");
-                $(".brand-logo img").addClass(" animated slideOutUp");
+                $(".brand-logo img").removeClass(" animated zoomIn");
+                $(".brand-logo img").addClass(" animated zoomOut");
             }
         });
     }
