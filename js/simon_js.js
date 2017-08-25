@@ -7,13 +7,6 @@ $(document).ready(function () {
         $(window).scroll(function()
         {
             var div = $(this);
-            // if (div.scrollHeight - div.scrollTop() === div.height())
-            // {
-            //     $(".brand-logo img").removeClass(" animated zoomIn");
-            //     $(".brand-logo img").addClass(" animated zoomOut");
-            //     alert("bottom");
-            // }
-            // else
             if(div.scrollTop() === 0)
             {
                 $(".brand-logo img").removeClass(" animated zoomOut");
