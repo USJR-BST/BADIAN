@@ -43,10 +43,19 @@ nav{
 }
 .nav-wrapper a {
     color:#292929;
+    font-size:1.5em;
 }
 .brand-logo{
-    top: -19px;
+    top: 10px;
+    left: 10px;
 }
+.nav-wrapper {
+    padding-top: 2em;
+}
+p {
+    font-size:1.4rem;
+}
+
 @media only screen and (min-width: 601px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         height: 125px;
@@ -64,5 +73,11 @@ nav{
     }
     .brandstamp-container{
         top:150px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .container .row {
+        margin-left: -15.75rem;
+        margin-right: -15.75rem;
     }
 }
