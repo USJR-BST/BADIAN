@@ -52,12 +52,18 @@ nav{
 .nav-wrapper {
     padding-top: 2em;
 }
-p {
+p , .text{
     font-size:1.4rem;
 }
-.section div .row .col{
-    margin-bottom: 1.4em;
+.our_attractions.section div .row .col{
+    margin-bottom: 0rem;
     padding: 1.8em;
+    padding-bottom: 0.8em;
+}
+.festival.section div .row .col{
+    margin-bottom: 0em;
+    padding: 1.8em;
+    padding-bottom: 0.8em;
 }
 .accommodations.section div .row .col{
     margin-bottom: 0;
@@ -67,7 +73,9 @@ p {
 .our_attractions {
     background: #EAEAEA;
 }
-
+.festival {
+    background: #EAEAEA;
+}
 .image-container {
     position: relative;
 }
