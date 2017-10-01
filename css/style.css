@@ -53,8 +53,26 @@ nav{
     padding-top: 2em;
 }
 p , .text{
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
+
+.location.section div .row .col{
+      margin-bottom: 0em;
+      padding: 1.8em;
+      padding-bottom: 0.8em;
+}
+.location_icons{
+    text-align: center;
+}
+.location_icons img{
+    width:40%;
+}
+/*.location.section div .row .col.location_icons{*/
+    /*padding: 0em 8em;*/
+/*}*/
+/*.location .card-image {*/
+    /*padding: 2em;*/
+/*}*/
 .our_attractions.section div .row .col{
     margin-bottom: 0rem;
     padding: 1.8em;
