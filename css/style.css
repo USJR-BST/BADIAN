@@ -65,7 +65,7 @@ p , .text{
     text-align: center;
 }
 .location_icons img{
-    width:40%;
+    width:40% !important;
 }
 /*.location.section div .row .col.location_icons{*/
     /*padding: 0em 8em;*/
