@@ -19,15 +19,19 @@
                 <a href="#" class="brand-logo"><img class="" width="150" src="images/badian_logo_white.png" /> </a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse right white-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="white-text" href="badges.html">History</a></li>
-                    <li><a class="white-text" href="collapsible.html">How To Get There</a></li>
-                    <li><a class="btn waves-effect waves-light teal darken-4 white-text btn-large" href="mobile.html"><i class="material-icons left">phone</i>Contact Us</a></li>
+                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#history">History</a></li>
+                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#wheretogo">Where To Go</a></li>
+                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#wheretostay">Where To Stay</a></li>
+                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#fiesta">Festival</a></li>
+                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#howtogetthere">How To Get There</a></li>
+                    <li><a class="btn waves-effect waves-light teal darken-4 white-text navlink" href="mobile.html"><i class="material-icons left">phone</i>Contact Us</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#wheretogo">Where To Go</a></li>
+                    <li><a href="#wheretostay">Where To Stay</a></li>
+                    <li><a href="#fiesta">Festival</a></li>
+                    <li><a href="#howtogetthere">How To Get There</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,7 +46,7 @@
         <div class="row">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
             <div class="col s12 m12 l12 xl12">
-                <div class="card">
+                <div class="card" id="history">
                     <div class="card-content">
                         <div style="width: 100%" class="center-align">
                             <img src="images/municipal_emblem.jpg" width="125" />
@@ -65,45 +69,57 @@
     <div class="our_attractions section">
         <div class="container">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row">
+            <div class="row" id="wheretogo">
                 <div class="col l12 xl12">
                     <h3 class="center-align">WHERE TO GO AT BADIAN</h3><hr width="70%">
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/Kawasan1.jpg" />
-                        <div class="after"><p>Kawasan Falls</p></div>
-                    </div>
+                    <a href="#kawasan_modal" data-target="kawasan_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/Kawasan1.jpg" />
+                            <div class="after"><p>Kawasan Falls</p></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/Lambug_active.jpg" />
-                        <div class="after"><p>Lambug Beach</p></div>
-                    </div>
+                    <a href="#lambug_modal" data-target="lambug_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/Lambug_active.jpg" />
+                            <div class="after"><p>Lambug Beach</p></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/canyoneering1_active.jpg" />
-                        <div class="after"><p>Canyoneering</p></div>
-                    </div>
+                    <a href="#canyoneering_modal" data-target="canyoneering_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/canyoneering1_active.jpg" />
+                            <div class="after"><p>Canyoneering</p></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/cigc.jpg" />
-                        <div class="after"><p>Cebu Intl. Golf Course</p></div>
-                    </div>
+                    <a href="#cigc_modal" data-target="cigc_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/cigc.jpg" />
+                            <div class="after"><p>Cebu Intl. Golf Course</p></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/badian_island2.jpg" />
-                        <div class="after"><p>Badian Island Wellness Resort</p></div>
-                    </div>
+                    <a href="#badian_island_modal" data-target="badian_island_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/badian_island2.jpg" />
+                            <div class="after"><p>Badian Island Wellness Resort</p></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col l12 xl4">
-                    <div class="image-container">
-                        <img class="responsive-img " src="images/attractions/mangrove.jpg" />
-                        <div class="after"><p>Mangrove</p></div>
-                    </div>
+                    <a href="#mangrove_modal" data-target="mangrove_modal" class="modal-trigger">
+                        <div class="image-container">
+                            <img class="responsive-img " src="images/attractions/mangrove.jpg" />
+                            <div class="after"><p>Mangrove</p></div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="col l12" style="height: 100px;"></div>
@@ -112,7 +128,7 @@
     <div class="accommodations section" >
         <div class="container">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row">
+            <div class="row" id="wheretostay">
                 <div class="col l12 xl12">
                     <h3 class="center-align">WHERE TO STAY AT BADIAN</h3> <hr width="70%">
                 </div>
@@ -147,7 +163,7 @@
     <div class="festival section" >
         <div class="container">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row">
+            <div class="row" id="fiesta">
                 <div class="col l12 xl12">
                     <h3 class="center-align">BANIG FESTIVAL OF BADIAN</h3> <hr width="70%">
                 </div>
@@ -168,7 +184,7 @@
     <div class="location section" >
         <div class="container">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row">
+            <div class="row" id="howtogetthere">
                 <div class="col l12 xl12">
                     <h3 class="center-align">HOW TO GET THERE</h3> <hr width="70%">
                 </div>
@@ -201,6 +217,107 @@
                 </div>
             </div>
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
+        </div>
+
+
+        <!-- Modal Structure -->
+        <div id="kawasan_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Kawasan Falls</h4>
+                <img class="responsive-img center-align" src="images/attractions/Kawasan1.jpg" />
+                <p style="text-align: justify;">Kawasan has many waterfalls. The first one is the largest of the three, and is usually the most crowded. An uphill climb for fifteen minutes will take you to the second falls, and another, and another. Its a good idea to bring in your own food, the resort’s restaurants are not cheap and prices are not marked. We ran into problems with the prices getting higher as the day went on.
+
+                    Cottages (1,500 to 2,500 php) and tables (500php) are also available for rent, the rooms are for overnight stay. You can rent a raft (300 php) to take you around the “pool” or for a refreshing “shower massage” under the falling water. Life vests are also available for rent.
+
+                    The pathway back is very dark once the sun sets so its best to bring a flashlight. You should be extra careful in going down the slope especially the one descending from the second or third falls to avoid mishaps or accidents.
+                    Kawasan Falls is a great get-away destination in the southern part of Cebu for family’s and gatherings.
+                    Here are some photos of kawasan Waterfalls Cebu Philippines.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="lambug_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Lambug Beach</h4>
+                <img class="responsive-img center-align" src="images/attractions/Lambug_active.jpg" />
+                <p style="text-align: justify;">A walk on a sunny beach is also an ideal thing to do when you are in the town. Lambug Beach is the best place to hang-out and watch the sunset, the place is open to public. Few small tents for rent are available in the area for your shelter.
+
+                    You can also bring some of your outdoor equips and enjoy the place at no extra cost. The place is situated at Barangay Lambug, a walk away from Cebu International Golf and Resort. Enjoy a day of snorkeling and lazing at the beach.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="canyoneering_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Badian Canyoneering</h4>
+                <img class="responsive-img center-align" src="images/attractions/canyoneering1_active.jpg" />
+                <p style="text-align: justify;">Exploration, traveling, and traversing canyons involve an extreme sport called canyoneering. In canyoneering, participants use various techniques that include several other outdoor activities such as hiking, scrambling, swimming, climbing, rapelling, and jumping. In many cases, ropework, technical skills and specialized gears are required to successfully traverse a canyon.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="canyoneering_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Badian Canyoneering</h4>
+                <img class="responsive-img center-align" src="images/attractions/canyoneering1_active.jpg" />
+                <p style="text-align: justify;">Exploration, traveling, and traversing canyons involve an extreme sport called canyoneering. In canyoneering, participants use various techniques that include several other outdoor activities such as hiking, scrambling, swimming, climbing, rapelling, and jumping. In many cases, ropework, technical skills and specialized gears are required to successfully traverse a canyon.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="cigc_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Cebu International Golf Course</h4>
+                <img class="responsive-img center-align" src="images/attractions/cigc.jpg" />
+                <p style="text-align: justify;">The course sits about a five minute ride away from the national highway and extends an area of about 8 hectares right down to lambug beach. The main attraction is the golf course which an 18 hole par 72 course with very well maintained greens and beautifully manicured grasses and of course golf carts are there for rent.
+
+                    Located 97 km from Cebu City the course spans and area of 8 hectares of open space. Its excellent atmosphere and beautiful surrounding provide guests with breathtaking views. Holiday vacationers and newly Weds will find the resort relaxing in its own surrounding the room brisk stroll to the beach. Special Holidays Packages are designed to fit your budget for all occasion, Golfers and Non Golfers, Group Tours, Wedding Couples, Families or individual travellers who wants to explore the various amenities, 18 holes Golf Course, Diving Shop, Island Hopping. The resort offers many diving areas for divers who wish to explore the undersea world. However, the special package design will fit your budget comfortably. The resorts offers 3 Meals a day menu caters a wide varieties of Korean and Philippine foods, for Breakfast, Lunch and Dinner.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="badian_island_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Badian Island Wellness Resort</h4>
+                <img class="responsive-img center-align" src="images/attractions/badian_island_active.jpg" />
+                <p style="text-align: justify;">Are you a fan of scuba diving or snorkeling? Badian Dive Center located at the beachfront of Badian Island Resort and Spa offer diving courses for beginners and other specialty courses. They operate all year round and are equipped with high standard equipments. Badian Dive Center offers 14 dive spots including the famous and one of the primary dive spot in the Philippines, The Pescador Island
+
+                    Relax at the resorts natural SPA or enjoy the island’s water sports such as scuba diving, hobby cat, jet blast, aqua cycle, banana Boat, windsurfing or paddle-boats. Badian Resort has its own private white sand beach as well as a swimming pool in which guests can swim or just chill under the sun.
+
+                    The resort’s latest attraction are the Thalasso POOL VILLAS with its own, private, ionized seawater pool and a spectacular view a favorite among the guests!</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="badian_island_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Badian Island Wellness Resort</h4>
+                <img class="responsive-img center-align" src="images/attractions/badian_island_active.jpg" />
+                <p style="text-align: justify;">Are you a fan of scuba diving or snorkeling? Badian Dive Center located at the beachfront of Badian Island Resort and Spa offer diving courses for beginners and other specialty courses. They operate all year round and are equipped with high standard equipments. Badian Dive Center offers 14 dive spots including the famous and one of the primary dive spot in the Philippines, The Pescador Island
+
+                    Relax at the resorts natural SPA or enjoy the island’s water sports such as scuba diving, hobby cat, jet blast, aqua cycle, banana Boat, windsurfing or paddle-boats. Badian Resort has its own private white sand beach as well as a swimming pool in which guests can swim or just chill under the sun.
+
+                    The resort’s latest attraction are the Thalasso POOL VILLAS with its own, private, ionized seawater pool and a spectacular view a favorite among the guests!</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+        <div id="mangrove_modal" class="modal modal-fixed-footer">
+            <div class="modal-content" style="text-align: center;">
+                <h4>Badian Mangrove</h4>
+                <img class="responsive-img center-align" src="images/attractions/mangrove.jpg" />
+                <p style="text-align: justify;">Just behind Poblician on the shore overlooking Badian Island you can find the mangroves growing out of the sea water. At low tide it is said to be possible to walk the shallow waters to the Island. You can walk around the shallow ankle deep waters at dusk and capture some great sunset shots.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
         </div>
     </div>
     <!--Import jQuery before materialize.js-->
