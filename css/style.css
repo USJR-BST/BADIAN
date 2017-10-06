@@ -36,8 +36,13 @@ h3{
 nav{
     padding: 2em 2em;
     /*background: transparent;*/
-    background: rgba(34,34,34,0.4) !important;
+    /*background: rgba(34,34,34,0.4) !important;*/
     box-shadow: none;
+    background: #333; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(34,34,34,0.8), transparent); /* Standard syntax */
 }
 .navbar-fixed{
     height: 0px !important;
@@ -50,7 +55,7 @@ nav{
     font-size:1.2em;
 }
 .brand-logo{
-    top: -20px;
+    top: -18px;
     left: 0;
 }
 .nav-wrapper {
