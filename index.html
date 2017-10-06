@@ -16,15 +16,15 @@
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo"><img class="" width="150" src="images/badian_logo_white.png" /> </a>
+                <a href="#" class="brand-logo"><img class="z-depth-3 circle" width="100" src="images/badian_logo_white.png" /> </a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse right white-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#history">History</a></li>
-                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#wheretogo">Where To Go</a></li>
-                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#wheretostay">Where To Stay</a></li>
-                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#fiesta">Festival</a></li>
-                    <li><a class="white-text btn teal darken-4 waves-light navlink" href="#howtogetthere">How To Get There</a></li>
-                    <li><a class="btn waves-effect waves-light teal darken-4 white-text navlink" href="mobile.html"><i class="material-icons left">phone</i>Contact Us</a></li>
+                    <li><a class="white-text  waves-light navlink" href="#history">History</a></li>
+                    <li><a class="white-text waves-light navlink" href="#wheretogo">Where To Go</a></li>
+                    <li><a class="white-text waves-light navlink" href="#wheretostay">Where To Stay</a></li>
+                    <li><a class="white-text waves-light navlink" href="#fiesta">Festival</a></li>
+                    <li><a class="white-text waves-light navlink" href="#howtogetthere">How To Get There</a></li>
+                    <li><a class="btn waves-effect waves-light teal-text navlink" href="mobile.html"><i class="material-icons left">phone</i>Contact Us</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="#history">History</a></li>
@@ -43,10 +43,10 @@
         <div class="parallax"><img src="images/atf_active.jpg"/></div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row" id="history">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
             <div class="col s12 m12 l12 xl12">
-                <div class="card" id="history">
+                <div class="card" >
                     <div class="card-content">
                         <div style="width: 100%" class="center-align">
                             <img src="images/municipal_emblem.jpg" width="125" />
@@ -67,9 +67,9 @@
         </div>
     </div>
     <div class="our_attractions section">
-        <div class="container">
+        <div class="container" id="wheretogo">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row" id="wheretogo">
+            <div class="row">
                 <div class="col l12 xl12">
                     <h3 class="center-align">WHERE TO GO AT BADIAN</h3><hr width="70%">
                 </div>
@@ -126,9 +126,9 @@
         </div>
     </div>
     <div class="accommodations section" >
-        <div class="container">
+        <div class="container" id="wheretostay">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row" id="wheretostay">
+            <div class="row">
                 <div class="col l12 xl12">
                     <h3 class="center-align">WHERE TO STAY AT BADIAN</h3> <hr width="70%">
                 </div>
@@ -161,9 +161,9 @@
         </div>
     </div>
     <div class="festival section" >
-        <div class="container">
+        <div class="container" id="fiesta">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row" id="fiesta">
+            <div class="row">
                 <div class="col l12 xl12">
                     <h3 class="center-align">BANIG FESTIVAL OF BADIAN</h3> <hr width="70%">
                 </div>
@@ -182,9 +182,9 @@
     </div>
 
     <div class="location section" >
-        <div class="container">
+        <div class="container" id="howtogetthere">
             <div class="col l12 hide-on-med-and-down" style="height: 100px;"></div>
-            <div class="row" id="howtogetthere">
+            <div class="row">
                 <div class="col l12 xl12">
                     <h3 class="center-align">HOW TO GET THERE</h3> <hr width="70%">
                 </div>
@@ -324,7 +324,7 @@
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="downloaded_components/materialize/js/materialize.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
+    <!-- Custom JS -->
     <script src="js/simon_js.js"></script>
 </body>
 </html>
