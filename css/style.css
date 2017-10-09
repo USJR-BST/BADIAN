@@ -39,10 +39,10 @@ nav{
     /*background: rgba(34,34,34,0.4) !important;*/
     box-shadow: none;
     background: #333; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(34,34,34,0.8), transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(34,34,34,0.8), transparent); /* Standard syntax */
+    background: -webkit-linear-gradient(rgba(34,34,34,0.6), transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(34,34,34,0.6), transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(34,34,34,0.6), transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(34,34,34,0.6), transparent); /* Standard syntax */
 }
 .navbar-fixed{
     height: 0px !important;
@@ -156,6 +156,12 @@ p , .text{
     }
     .brandstamp-container{
         top:150px;
+    }
+    .image-container p {
+        font-size: 20pt;
+    }
+    .image-container .after {
+        opacity: 1;
     }
 }
 @media only screen and (min-width: 1440px){
